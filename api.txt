@@ -1,0 +1,22 @@
+php 命名空间和绝对路径一致
+类名的首字母大写
+除了入口之外，只有一个类
+
+单一入口，自动加载
+
+
+写日志
+__METHOD__：类中的方法名称
+__LINE__：当前行数
+
+错误等级
+const LOG_LEVL_NO = 0;					//无日志
+const LOG_LEVL_ERROR = 0x01;			//错误日志
+const LOG_LEVL_WARNING = 0x02;			//警告日志
+const LOG_LEVL_DEBUG = 0x04;			//调式日志
+const LOG_LEVL_DATA = 0x08;				//数据信息
+
+writeLog：
+Core_Logger::getInstance()->writeLog(__METHOD__.":".__LINE__,$this->_error_des.',sql='.$sql,Core_Logger::LOG_LEVL_ERROR);
+
+

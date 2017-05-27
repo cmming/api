@@ -1,0 +1,3 @@
+2017-05-24 09:39:59[log_a61d562573e92437dc4e3cd1c3cb26a5_1][Error][Core_DBOper::DB_Connect:115]connect to db error host=mywebdb db=db_htc_center user=sdk_user mysql_err=ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓĞÕıÈ·´ğ¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓĞ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+
+2017-05-24 09:39:59[log_a61d562573e92437dc4e3cd1c3cb26a5_2][Error][classAdmin::init_mysql_obj:66]è¿æ¥æ•°æ®åº“å¤±è´¥
